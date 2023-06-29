@@ -49,7 +49,7 @@ def send_model_to(model, device):
     model.face_helper.face_parse.to(device)
 
 
-def gfpgan_fix_faces(np_image):
+def   gfpgan_fix_faces(np_image):
     model = gfpgann()
     if model is None:
         return np_image
